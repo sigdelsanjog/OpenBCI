@@ -1,0 +1,6 @@
+java/lib/modules filter=lfs diff=lfs merge=lfs -text
+lib/brainflow.jar filter=lfs diff=lfs merge=lfs -text
+lib/libonnxruntime_x64.* filter=lfs diff=lfs merge=lfs -text
+java/jmods/*.jmod filter=lfs diff=lfs merge=lfs -text
+java/lib/server/* filter=lfs diff=lfs merge=lfs -text
+data/EEG_Sample_Data/**/*.txt filter=lfs diff=lfs merge=lfs -text
